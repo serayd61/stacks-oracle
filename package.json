@@ -1,0 +1,29 @@
+{
+  "name": "stacks-oracle",
+  "version": "1.0.0",
+  "description": "Decentralized price feed oracle for Stacks blockchain",
+  "main": "scripts/index.js",
+  "scripts": {
+    "test": "clarinet test",
+    "check": "clarinet check",
+    "console": "clarinet console",
+    "deploy:testnet": "clarinet deployments apply -p testnet",
+    "deploy:mainnet": "clarinet deployments apply -p mainnet",
+    "reporter": "node scripts/reporter.js"
+  },
+  "keywords": [
+    "stacks",
+    "oracle",
+    "price-feed",
+    "defi",
+    "blockchain",
+    "clarity"
+  ],
+  "author": "serayd61",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serayd61/stacks-oracle.git"
+  }
+}
+

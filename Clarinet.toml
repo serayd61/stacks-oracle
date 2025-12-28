@@ -1,0 +1,28 @@
+[project]
+name = "stacks-oracle"
+description = "Decentralized price feed oracle for Stacks blockchain"
+authors = ["serayd61"]
+telemetry = false
+cache_dir = "./.cache"
+requirements = []
+
+[contracts.oracle-core]
+path = "contracts/oracle-core.clar"
+clarity_version = 2
+epoch = 2.5
+
+[contracts.oracle-consumer]
+path = "contracts/oracle-consumer.clar"
+clarity_version = 2
+epoch = 2.5
+depends_on = ["oracle-core"]
+
+[repl.analysis]
+passes = ["check_checker"]
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
