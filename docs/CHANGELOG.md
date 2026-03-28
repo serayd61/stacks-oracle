@@ -660,3 +660,20 @@
 ### Fixed
 - Minor bug fixes
 - Type corrections
+
+
+
+## [1.0.58] - 2026-03-28T10:26:19.858Z
+
+### Added
+- New utility functions
+- Improved documentation
+- Additional test coverage
+
+### Changed
+- Updated dependencies
+- Improved error handling
+
+### Fixed
+- Minor bug fixes
+- Type corrections
